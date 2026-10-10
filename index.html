@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sites from the harness</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css">
+</head>
+<body>
+<div class="reveal"><div class="slides">
+  <section><h1>Sites from the harness</h1><p>Ask for something visual → get a live link</p></section>
+  <section><h2>What it does</h2><ul>
+    <li class="fragment">The AI builds HTML, CSS and JavaScript</li>
+    <li class="fragment">publishes it at <code>name.dshai.reggilion.com</code></li>
+    <li class="fragment">and hands you the URL</li></ul></section>
+  <section><h2>Good for</h2><ul>
+    <li>Illustrations &amp; animations</li><li>Slide decks like this one</li><li>Interactive explainers &amp; simulations</li>
+    <li>Charts, dashboards, diagrams</li><li>Reports, prototypes, small games</li></ul></section>
+  <section><h2>How it works</h2><ol>
+    <li>deSEC DNS record → GitHub Pages</li><li>One public repo per site</li><li>Free HTTPS certificate from GitHub</li></ol>
+    <aside class="notes">Each site is public — never put secrets in one.</aside></section>
+  <section><h2>Try it</h2><p>"Make me an animated diagram of how a CPU pipeline works"</p></section>
+</div></div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/plugin/notes/notes.js"></script>
+<script>Reveal.initialize({ hash: true, plugins: [RevealNotes] })</script>
+</body>
+</html>
